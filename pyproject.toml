@@ -11,6 +11,13 @@ lines_after_imports = 2
 multi_line_output = 3
 use_parentheses = true
 
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+version_files = ["pyproject.toml:version"]
+tag_format = "$version"
+update_changelog_on_bump = true
+
 [tool.poetry]
 name = "MingleLLM"
 version = "0.1.0"
