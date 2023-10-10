@@ -16,14 +16,14 @@ src_paths = ["src", "tests"]
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.0.1"
+version = "0.1.0"
 version_files = ["pyproject.toml:version"]
 tag_format = "$version"
 update_changelog_on_bump = true
 
 [tool.poetry]
 name = "MingleLLM"
-version = "0.0.1"
+version = "0.1.0"
 description = "MingleLLM: FastAPI Server for Large Language Model"
 authors = ["YoungJae Kim <coreakyj96@gmail.com>"]
 license = "MIT"
